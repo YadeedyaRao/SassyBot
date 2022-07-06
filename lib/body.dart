@@ -132,7 +132,7 @@ class _BodyState extends State<Body> {
     return Column(
       children: [
         Expanded(
-          flex:8,
+          flex:6,
             child:ListView.builder(
               controller: _controller,
                 itemCount: a.length,
